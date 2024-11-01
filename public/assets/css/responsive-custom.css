@@ -1,0 +1,26 @@
+/* @media screen and (max-width:2100px) {
+    .mailer-name {
+        flex-basis: 300px;
+    }
+
+    .mailer-name span {
+        width: 300px
+    }
+}
+
+
+@media screen and (max-width:1600px) {
+    .mailer-name {
+        flex-basis: 200px;
+    }
+
+    .mailer-name span {
+        width: 200px
+    }
+} */
+
+@media screen and (max-width:1400px) {
+    .card-wrapper .task-list-items {
+        max-height: 62vh;
+    }
+}

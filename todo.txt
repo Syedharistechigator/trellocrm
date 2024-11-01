@@ -1,0 +1,50 @@
+cc_info mein field add hogi konsey merchant pey chaleny sey card save hoga.
+
+
+** payments ***
+// payarc -> zip required
+// expigate -> city, zip,state required
+
+// need member re active (inactive user on delete button updated 05-12)
+// member(user) delete module need to be added
+
+// user dashboard update invoice tax scenario need to be update
+
+
+// priority 1
+
+
+// Priority 2
+
+
+
+
+
+// Remaining to go live
+
+
+
+
+
+
+// Board Card List
+
+!. on add cover from attachments not working properly & bg color not showing properly , on modal , main card and on cover dropdown
+!. On deleting and adding comment main card count not updated
+!. Delete comment controller function return counts and board id
+!. On deleting last attachment count not updating to zero
+!. After delete attachments on cover dropdown deleted attachments not removed
+!. Handle all ajax request if a user logged out
+!. On Opening card modal main card attachment and comment card count update
+!. Temporary Unavailable Handle all ajax request
+!. On removing last member , member not removing
+!. Add new card duplication resolved
+!. On Opening card modal main card members not updating.
+!. Join card functionality not working
+!. On creating user in crm board members not updating
+!. Dynamic function for assign user and fetch card assign user
+!. Dynamic board user list.
+
+// Working...
+
+// Remained

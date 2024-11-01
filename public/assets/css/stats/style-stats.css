@@ -1,0 +1,263 @@
+:root {
+  --iq-light-card: #ffffff;
+  --iq-light: #fafafb;
+  --iq-border-light: #f1f1f1;
+}
+
+/*----------------------------------------------
+Grid Boxes
+------------------------------------------------*/
+.iq-card-block.iq-card-stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.iq-card-block.iq-card-height-half {
+  height: calc(50% - 30px);
+}
+
+.iq-card-block.iq-card-height {
+  height: calc(100% - 30px);
+}
+
+.iq-card-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/*----------------------------------------------
+Card
+------------------------------------------------*/
+.iq-card {
+  background: var(--iq-light-card);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+  box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+}
+
+.iq-card-body {
+  padding: 15px;
+}
+
+.iq-card .iq-card-header {
+  padding: 0 20px;
+  min-height: 60px;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  border-bottom: 1px solid var(--iq-border-light);
+}
+
+.iq-card .iq-card-header .iq-header-title {
+  display: inline-block;
+  align-self: center !important;
+}
+
+.iq-card .iq-card-header .iq-header-title .card-title {
+  font-size: 1.400em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.iq-card-header-toolbar .nav-item a {
+  color: var(--iq-body-text);
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.iq-card-header-toolbar .dropdown-toggle i {
+  font-size: 22px;
+  line-height: normal;
+  color: var(--iq-body-text);
+}
+
+.iq-card-header-toolbar .dropdown-toggle::after {
+  display: none;
+}
+
+/*---------------------------------------------------------------------
+                                  Progressbar
+-----------------------------------------------------------------------*/
+.iq-progress-bar {
+  background: var(--iq-light);
+  box-shadow: 0 0 0;
+  height: 6px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.iq-progress-bar>span {
+  background: var(--iq-primary) none repeat scroll 0 0;
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+}
+
+.small-heading {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.box-heading {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+/*----------------------------------------------
+Card
+------------------------------------------------*/
+.iq-card {
+  background: var(--iq-light-card);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+  box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+}
+
+.iq-card-body {
+  padding: 15px;
+}
+
+.iq-card .iq-card-header {
+  padding: 0 20px;
+  min-height: 60px;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  border-bottom: 1px solid var(--iq-border-light);
+}
+
+.iq-card .iq-card-header .iq-header-title {
+  display: inline-block;
+  align-self: center !important;
+}
+
+.iq-card .iq-card-header .iq-header-title .card-title {
+  margin-bottom: 0;
+}
+
+.iq-card-header-toolbar .nav-item a {
+  color: var(--iq-body-text);
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.iq-card-header-toolbar .dropdown-toggle i {
+  font-size: 22px;
+  line-height: normal;
+  color: var(--iq-body-text);
+}
+
+.iq-card-header-toolbar .dropdown-toggle::after {
+  display: none;
+}
+
+.amcharts-chart-div {
+  font-size: 12px;
+}
+
+.widget-joins {
+  position: relative;
+}
+
+/* .widget-joins:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #efefef;
+  left: calc(50% - 1px);
+}
+
+.widget-joins:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #efefef;
+  left: 0;
+  top: 50%;
+} */
+
+.widget-joins .d-flex {
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 0;
+}
+
+.widget-joins .d-flex .flex-grow-1 {
+  text-align: left;
+}
+
+.widget-joins .d-flex .flex-grow-1 svg {
+  width: 40px;
+  height: 40px;
+}
+
+.font-primary {
+  color: #655af3 !important;
+}
+
+.widget-joins .d-flex .flex-grow-1>span {
+  color: #8392a5;
+}
+
+.widget-joins.card {
+  margin-bottom: 30px;
+  border: none;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  box-shadow: 0 0 41px 18px #f9fafb;
+  background-color: #fff;
+}
+
+.text-start {
+  text-align: left;
+}
+
+.widget-joins h6,
+.widget-joins h4,
+.widget-joins h5 {
+  font-weight: 700;
+}
+
+.widget-joins .col-sm-3:last-child .d-flex {
+  border-right: 0;
+}
+
+.daysworking .box-heading .counter {
+  border-radius: 4px;
+  display: inline-block;
+  padding: 7px 5px 3px;
+  line-height: 100%;
+  font-size: 22px;
+}
+
+/* @media screen and (min-width: 1200px) and (max-width: 1660px) {
+  .xl-100 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+} */

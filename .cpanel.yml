@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/techig6/public_html/tgcrm.net/
+    - /bin/cp * $DEPLOYPATH
